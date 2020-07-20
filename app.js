@@ -21,7 +21,7 @@ mongoose.connection.on("error",err => {
 
 //routes
 const postRoutes = require('./routes/post');
-// const myOwnMiddleware = (req, res, next) => {
+// const myOwnMiddleware = () => {
 //     console.log('My Middleware API');
 //     next();
 // }
